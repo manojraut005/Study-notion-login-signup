@@ -11,20 +11,20 @@ const Navbar = (props) => {
   return (
     <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
 
-        <Link to="/home"> 
+        <Link to="/Study-notion-login-signup/home"> 
             <img src={logo} alt="Logo" width={160} height={32} loading="lazy"/>
         </Link>
 
         <nav className='hidden md:block '>
             <ul className='text-richblack-100 flex gap-x-6'>
                 <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/Study-notion-login-signup/home">Home</Link>
                 </li>
                 <li>
-                    <Link to="/home">About</Link>
+                    <Link to="/Study-notion-login-signup/home">About</Link>
                 </li>
                 <li>
-                    <Link to="/home">Contact</Link>
+                    <Link to="/Study-notion-login-signup/home">Contact</Link>
                 </li>
             </ul>
         </nav>
@@ -32,7 +32,7 @@ const Navbar = (props) => {
         {/* Login - SignUp - LogOut - Dashboard */}
         <div className='flex items-center gap-x-4'>
             { !isLoggedIn &&
-                <Link to="/login">
+                <Link to="/Study-notion-login-signup/login">
                     <button className='bg-richblack-800 text-richblack-100 py-[8px] 
                     px-[12px] rounded-[8px] border border-richblack-700'>
                         Log in
@@ -40,7 +40,7 @@ const Navbar = (props) => {
                 </Link>
             }
             { !isLoggedIn &&
-                <Link to="/signup">
+                <Link to="/Study-notion-login-signup/signup">
                     <button  className='bg-richblack-800 text-richblack-100 py-[8px] 
                     px-[12px] rounded-[8px] border border-richblack-700'>
                         Sign up
@@ -48,7 +48,7 @@ const Navbar = (props) => {
                 </Link>
             }
             { isLoggedIn &&
-                <Link to="/home">
+                <Link to="/Study-notion-login-signup/home">
                     <button onClick={() => {
                         setIsLoggedIn(false);
                         toast.success("Logged Out");
@@ -60,7 +60,7 @@ const Navbar = (props) => {
                 </Link>
             }
             { isLoggedIn &&
-                <Link to="/dashboard">
+                <Link to="/Study-notion-login-signup/dashboard">
                     <button
                      className='bg-richblack-800 text-richblack-100 py-[8px] 
                     px-[12px] rounded-[8px] border border-richblack-700'>

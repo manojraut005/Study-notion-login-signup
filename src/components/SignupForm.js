@@ -51,7 +51,7 @@ const SignupForm = ({setIsLoggedIn}) => {
         console.log("printing Final account data ");
         console.log(finalData);
 
-        navigate("/dashboard");
+        navigate("/Study-notion-login-signup/dashboard");
 
     }
 

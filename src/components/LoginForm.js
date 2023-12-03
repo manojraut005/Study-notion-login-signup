@@ -31,7 +31,7 @@ const LoginForm = ({setIsLoggedIn}) => {
         toast.success("Logged In");
         console.log("Printing the formData ");
         console.log(formData)
-        navigate("/dashboard");
+        navigate("/Study-notion-login-signup/dashboard");
     }
 
   return (
