@@ -11,20 +11,20 @@ const Navbar = (props) => {
   return (
     <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
 
-        <Link to="/"> 
+        <Link to="/home"> 
             <img src={logo} alt="Logo" width={160} height={32} loading="lazy"/>
         </Link>
 
         <nav className='hidden md:block '>
             <ul className='text-richblack-100 flex gap-x-6'>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/home">Home</Link>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link to="/home">About</Link>
                 </li>
                 <li>
-                    <Link to="/">Contact</Link>
+                    <Link to="/home">Contact</Link>
                 </li>
             </ul>
         </nav>
@@ -48,7 +48,7 @@ const Navbar = (props) => {
                 </Link>
             }
             { isLoggedIn &&
-                <Link to="/">
+                <Link to="/home">
                     <button onClick={() => {
                         setIsLoggedIn(false);
                         toast.success("Logged Out");
