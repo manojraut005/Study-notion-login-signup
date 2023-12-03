@@ -22,7 +22,7 @@ function App() {
       <Routes>
 
         
-        <Route path="/Study-notion-login-signup/home" element= {<Home isLoggedIn={isLoggedIn}/>} />
+        <Route path="/Study-notion-login-signup/" element= {<Home isLoggedIn={isLoggedIn}/>} />
         <Route path="/Study-notion-login-signup/login" element = {<Login  setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/Study-notion-login-signup/signup" element={<Signup  setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/Study-notion-login-signup/dashboard" element = {
