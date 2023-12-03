@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Study-notion-login-signup/static/css/main.6dda6660.css",
-    "main.js": "/Study-notion-login-signup/static/js/main.2eb259f4.js",
+    "main.js": "/Study-notion-login-signup/static/js/main.b0e4691f.js",
     "static/media/signup.png": "/Study-notion-login-signup/static/media/signup.b431d919de01b6515dd6.png",
     "static/media/login.png": "/Study-notion-login-signup/static/media/login.4d877a447365e5137b67.png",
     "static/media/frame.png": "/Study-notion-login-signup/static/media/frame.3a238e5f26d676376e1d.png",
     "static/media/Logo.svg": "/Study-notion-login-signup/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
     "index.html": "/Study-notion-login-signup/index.html",
     "main.6dda6660.css.map": "/Study-notion-login-signup/static/css/main.6dda6660.css.map",
-    "main.2eb259f4.js.map": "/Study-notion-login-signup/static/js/main.2eb259f4.js.map"
+    "main.b0e4691f.js.map": "/Study-notion-login-signup/static/js/main.b0e4691f.js.map"
   },
   "entrypoints": [
     "static/css/main.6dda6660.css",
-    "static/js/main.2eb259f4.js"
+    "static/js/main.b0e4691f.js"
   ]
 }
