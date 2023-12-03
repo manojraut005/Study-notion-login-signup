@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Study-notion-login-signup/static/css/main.6dda6660.css",
-    "main.js": "/Study-notion-login-signup/static/js/main.b0e4691f.js",
+    "main.css": "/Study-notion-login-signup/static/css/main.6c8164c9.css",
+    "main.js": "/Study-notion-login-signup/static/js/main.25c2d9b8.js",
     "static/media/signup.png": "/Study-notion-login-signup/static/media/signup.b431d919de01b6515dd6.png",
     "static/media/login.png": "/Study-notion-login-signup/static/media/login.4d877a447365e5137b67.png",
     "static/media/frame.png": "/Study-notion-login-signup/static/media/frame.3a238e5f26d676376e1d.png",
     "static/media/Logo.svg": "/Study-notion-login-signup/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
     "index.html": "/Study-notion-login-signup/index.html",
-    "main.6dda6660.css.map": "/Study-notion-login-signup/static/css/main.6dda6660.css.map",
-    "main.b0e4691f.js.map": "/Study-notion-login-signup/static/js/main.b0e4691f.js.map"
+    "main.6c8164c9.css.map": "/Study-notion-login-signup/static/css/main.6c8164c9.css.map",
+    "main.25c2d9b8.js.map": "/Study-notion-login-signup/static/js/main.25c2d9b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dda6660.css",
-    "static/js/main.b0e4691f.js"
+    "static/css/main.6c8164c9.css",
+    "static/js/main.25c2d9b8.js"
   ]
 }
